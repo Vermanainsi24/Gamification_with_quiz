@@ -1,0 +1,462 @@
+/* App.css */
+.container {
+  background-color:rgba(46, 208, 217, 0.47);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height:100vh;
+  width:100vw;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.feedback {
+  font-size: 1.5rem;
+  color: #d9534f;
+  margin-top: 20px;
+}
+
+.feedback.correct {
+  color: #5bc0de;
+}
+
+button {
+  font-size: 1.2rem;
+  width: 250px;
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.animate__animated {
+  animation-duration: 0.8s;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* styles.css */
+.container {
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.question-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.options-container button {
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.options-container button:hover {
+  transform: scale(1.1);
+}
+.question-info {
+  text-align: right;
+  margin-top: 20px;
+}
+/* styles.css */
+.container {
+  background-color: #f9f9f9;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.question-container {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.que {
+  min-width: 1000px; /* Ensures the width is at least 1000px */
+  max-width: 100%;   /* Ensures it doesn't exceed the screen width */
+  border: 2px solid black;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  margin: 20px auto;  /* Center the div horizontally and adds some spacing */
+  padding: 20px;  /* Adds padding to make the content more spaced */
+  display: flex;  /* Use flexbox to center content */
+  justify-content: center;  /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  text-align: center;
+  word-wrap: break-word;  /* Ensures long words wrap properly */
+  margin-left: -130px;
+}
+
+.options-container button {
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  transition: transform 0.5s ease;
+}
+
+.options-container button:hover {
+  transform: scale(1.1);
+}
+
+.question-info {
+  text-align: right;
+  margin-top: 20px;
+}
+
+
+
+/* styles.css */
+.container {
+  background-color: #61d2e667;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+/* .question-container {
+  background-color: #07595f7c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+} */
+
+.options-container button {
+  background-color: #10097b;
+  color: white;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.options-container button:hover {
+  transform: scale(1.1);
+}
+
+/* .question-info {
+  text-align: right;
+  margin-top: 20px;
+} */
+/* App.css */
+.feedback.positive{
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #28a745; /* Green color for correct */
+}
+
+.feedback.negative {
+  color: #dc3545; /* Red color for incorrect */
+}
+
+
+
+
+
+/* Animations from animate.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+/* Base Button Styles */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Body Centering */
+body {
+  display: flex;
+  justify-content: center;  /* Horizontally center the .que div */
+  align-items: center;      /* Vertically center the .que div */
+  height: 100vh;            /* Make the body take up the full viewport height */
+  margin: 0;                /* Remove any default margin */
+}
+
+/* Correct/Incorrect Options */
+.correct {
+  background-color: green !important;
+  color:black;
+}
+
+.incorrect {
+  background-color: red !important;
+  color: black;
+}
+
+/* Main Container */
+.container {
+  width: 1100px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.305);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Question Box */
+.que {
+  min-width: 1000px; /* Ensures the width is at least 1000px */
+  max-width: 100%;   /* Ensures it doesn't exceed the screen width */
+  border: 2px solid black;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  margin: 20px auto;  /* Center the div horizontally and adds some spacing */
+  padding: 20px;      /* Adds padding to make the content more spaced */
+  display: flex;      /* Use flexbox to center content */
+  justify-content: center;  /* Center content horizontally */
+  align-items: center;      /* Center content vertically */
+  text-align: center;
+  word-wrap: break-word;    /* Ensures long words wrap properly */
+}
+
+/* Options Container */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Option Buttons */
+.option-btn {
+  width: 30vw;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 70px;
+  background-color: #5bc0de;
+}
+
+.option-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Overriding Correct/Incorrect for Option Buttons */
+.correct {
+  background-color: green !important;
+  color: black;
+}
+
+.incorrect {
+  background-color: red !important;
+  color: black;
+}
+
+/* Question Tracker */
+.question-tracker {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  color:black;
+}
+
+/* Background Video Styling */
+
+
+/* Quiz Container */
+.quiz-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+/* Quiz Content */
+.content {
+  /* Uncomment below for a semi-transparent background */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  width: 60%;
+}
+
+/* ------------------------------- */
+/* Additional Styles and Features  */
+/* ------------------------------- */
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .que {
+    min-width: 90%;
+    font-size: 20px;
+    padding: 15px;
+  }
+  
+  .option-btn {
+    width: 80%;
+    font-size: 16px;
+    padding: 12px;
+  }
+  
+  .container {
+    width: 90%;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  .content {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+/* Progress Bar for Quiz Tracking */
+.progress-container {
+  width: 100%;
+  background-color: #e0e0e016;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #4caf50;
+  width: 0%;  /* Will be updated dynamically */
+  transition: width 0.5s ease-in-out;
+}
+
+/* Modal for Score or End of Quiz Message */
+.score-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  z-index: 1000;
+  color: white;
+  display: none;
+  text-align: center;
+}
+
+.score-modal.show {
+  display: block;
+  animation: fadeInModal 0.5s ease-in-out;
+}
+
+/* Keyframes for Modal Fade-In */
+@keyframes fadeInModal {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.background-video {
+  position:fixed;      /* Fixed positioning ensures the video stays in place */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* Ensures the video covers the area without distortion */
+  z-index: -1;          /* Places the video behind other content */
+}
+.my-4{
+  color:black;
+}
+/* Container for the quiz completion results */
+.result-container {
+  background-color: #f8f9fa;      /* Light background */
+  border-radius: 8px;             /* Rounded corners */
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  max-width: 500px;               /* Limit width */
+  margin: 50px auto;              /* Center horizontally with some top margin */
+  animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+  text-align: center;
+}
+
+/* Heading styling */
+.result-container h2 {
+  font-size: 2rem;
+  color: #28a745;    /* A pleasing green color */
+  margin-bottom: 20px;
+}
+
+/* Score text styling */
+.score-text {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Restart button styling */
+.restart-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.restart-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Fade-in keyframes for smooth appearance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
