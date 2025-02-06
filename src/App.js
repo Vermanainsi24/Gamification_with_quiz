@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import quiz from "./quiz.json"; // Import local JSON file
 import correctSound from './sounds/correct_sound.wav';  
 import incorrectSound from './sounds/incorrect_sound.wav';  
